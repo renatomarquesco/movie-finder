@@ -1,0 +1,72 @@
+body {
+    font-family: 'Noto Sans SC', sans-serif;
+    
+}
+
+.row-title {
+    font-size: 50px;
+    margin-top: 35px;
+}
+
+.row-title img {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+@media(max-width:992px) {
+    .row-title img {
+        display: none;
+    }
+}
+
+h1 {
+    font-size: 55px;
+}
+
+#search {
+    border: 0.2px gray inset;
+    padding-left: 10px;
+    margin-right: 20px;
+
+}
+
+.top {
+    margin-top: 60px;
+}
+
+#button {
+    background-color: black;
+    color: aliceblue;
+    font-weight: 100;
+}
+
+.new-div {
+    margin-top: 45px;
+    border-right: 0.3px solid gray;
+    text-align: center;
+}
+
+.title {
+    font-size: 25px;
+}
+
+.year {
+    font-size: 20px;
+}
+
+.poster {
+    margin-top: 20px;
+}
+
+.new-div a {
+    text-decoration: underline;
+    color: rgb(19, 20, 19);
+    font-size: 30px;
+
+}
+
+.new-div a:hover {
+    font-size: 35px;
+    transition: ease-in 0.3s;
+    color: rgb(224, 19, 19)
+}
